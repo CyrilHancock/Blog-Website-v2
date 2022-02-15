@@ -2,16 +2,13 @@
 
 
 
-<h1>Home</h1>
-<p>
-    <%= homeparagragh%> 
-</p>
+
  
 <% content.forEach(element => { %>
-    <h1><%= element.title %></h1>
+    <h1><%= element.Title %></h1>
    <p>
-    <%=  element.postBody.substr(0,150)%>....
-    <a href="/posts/<%= element.slug %>">Read More</a>
+    <%=  element.postBody1%>....
+    <a href="/posts/<%= element._id%>">Read More</a>
    </p> 
   
 <% }) %>
