@@ -16,11 +16,12 @@ git clone https://github.com/CyrilHancock/Blog-Website-v1.git
 4. And execute
 5. For Starting mongo on WINDOWS visit **https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/**
 6. For Starting mongo on UBUNTU  visit **https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/**
+For Running on Local
 ```
 node app.js
-```
+
 And navigate to
-```
+
 http://localhost:3000
 ```
 ## See it Now
